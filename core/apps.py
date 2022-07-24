@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class InstagramWebAppConfig(AppConfig):
+class CoreConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'instagram_web_app'
+    name = 'core'
