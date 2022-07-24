@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Instagram</title>
+	{% load static %}
+
+	<link rel="stylesheet"  href="{% static 'css/styles.css' %}" type="text/css"/>
+</head>
+<body>
+	<div class="center_pos border_box">
+		<h1>Instagram</h1>
+
+		<form action="" method="post">
+			
+			{% csrf_token %}
+			
+			<input type="text" name="username" placeholder="Num. téléphone, nom d'utilisateur" >
+			<br>
+			<input type="password" name="password" placeholder="Mot de passe ">
+			<br>
+			<input type="submit" value="se connecter">
+		</form>
+
+		<p> - OU - </p>
+		<a href="http://Facebook.com">Se connecter avec Facebook</a>
+		<br>
+		<a href="http://">Mot de passe oublié ? </a>
+		<br>
+		<p>
+			Vous n'aves pas de compte ?
+			<a href="http://">Incrivez-vous</a>
+		</p>
+
+
+	</div>
+
+	
+</body>
+</html>

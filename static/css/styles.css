@@ -1,0 +1,21 @@
+
+.center_pos{
+	align-content: center;
+	margin-top: 65px;
+	margin-right: 250px;
+	margin-left: 730px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-size:large;
+	
+}
+
+.border_box{
+	background-color: aqua;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.form_content{
+	border-radius: 20%;
+}
